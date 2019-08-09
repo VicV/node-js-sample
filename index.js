@@ -5,7 +5,7 @@ app.set('port', (process.env.PORT || 5000))
 app.use(express.static(__dirname + '/public'))
 
 app.get('/', function(request, response) {
-  response.send('Hello Chantelle you suck!')
+  response.send('Hello worldy worldy! boyoyoyoyoyo ! !')
 })
 
 app.listen(app.get('port'), function() {
